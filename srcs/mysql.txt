@@ -1,0 +1,4 @@
+CREATE USER 'naila'@'localhost';
+CREATE DATABASE nmb;
+GRANT ALL PRIVILEGES ON nmb.* TO 'naila'@'localhost' identified by 'dori';
+FLUSH PRIVILEGES;
