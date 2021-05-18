@@ -20,13 +20,13 @@ mv etc/default etc/nginx/sites-available/.
 chown -R www-data:www-data /var/www
 
 ########### start mysql
-service mysql restart
+service mysql start
 mysql -uroot < /etc/mysql.txt
 
 ########### certificat SSL
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt < /etc/ssl.txt
 
 ########### restart
-service php7.3-fpm restart 
-service nginx restart
+service php7.3-fpm start 
+service nginx start
 bash
