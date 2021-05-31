@@ -9,4 +9,4 @@ https://tutoriel-nginx.readthedocs.io/fr/latest/Basic_Config.html
 >Use of cripts to automate a tasks \
 "docker" technology \
 SSL protocol \
-Server configuration
+Server(nginx) configuration
