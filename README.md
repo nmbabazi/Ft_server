@@ -10,6 +10,12 @@ https://phoenixnap.com/kb/types-of-ssl-certificates \
 https://phoenixnap.com/kb/openssl-tutorial-ssl-certificates-private-keys-csrs \
 https://www.freecodecamp.org/news/how-to-get-https-working-on-your-local-development-environment-in-5-minutes-7af615770eec/
 
+
+## RUN
+
+```docker build -t myimage .``` \
+```docker run -it --rm -d -p 80:80 -p 443:443 --name mydocker myimage```
+
 ## What I learned
 >Use of cripts to automate a tasks \
 "docker" technology \
